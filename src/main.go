@@ -1,8 +1,7 @@
 package main
 
 import (
-	"GoFrom0/src/ejercicios"
-	"fmt"
+	"GoFrom0/src/teclado"
 )
 
 func main() {
@@ -22,8 +21,10 @@ func main() {
 	// case "windows":
 	// 	fmt.Println("Windiossss")
 	// }
-	value, text := ejercicios.Uno("500")
+	// value, text := ejercicios.Uno("500")
 
-	fmt.Println(value)
-	fmt.Println(text)
+	// fmt.Println(value)
+	// fmt.Println(text)
+
+	teclado.IngresoNumeros()
 }
