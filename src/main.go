@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GoFrom0/src/iteraciones"
+	"GoFrom0/src/ejercicios"
 )
 
 func main() {
@@ -27,6 +27,6 @@ func main() {
 	// fmt.Println(text)
 
 	// teclado.IngresoNumeros()
-	iteraciones.Iterar()
-
+	// iteraciones.Iterar()
+	ejercicios.TablaMultiplicar()
 }
